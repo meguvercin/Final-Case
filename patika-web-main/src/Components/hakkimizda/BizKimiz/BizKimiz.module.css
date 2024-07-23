@@ -1,0 +1,132 @@
+.bizKimizContainer {
+  padding: 75px 0 0 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(174, 173, 245, 0.7808517156862745) 100%
+  );
+}
+
+.profile_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 600px;
+  height: 300px;
+
+  position: relative;
+
+  color: var(--fontColorOnWhite);
+  background-color: var(--backgroundWhite);
+
+  letter-spacing: 1px;
+
+  border: 15px solid var(--red);
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card_description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 40px;
+
+  width: auto;
+  height: 100%;
+}
+
+.card_description_title {
+  font-size: 18px;
+}
+.card_description_profession {
+  display: block;
+
+  font-size: 16px;
+}
+.card_description_company {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+}
+.card_description_company:hover {
+}
+.card_description_social {
+  position: absolute;
+  bottom: 40px;
+}
+.card_description_social_follow {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #555572;
+  font-size: 14px;
+}
+.card_image {
+  width: 250px;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.list li {
+  list-style-type: none;
+}
+.list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  color: #121212;
+
+  border-radius: 50%;
+
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.4s;
+}
+.list a:hover {
+  color: white;
+
+  transform: translate(0, -7px);
+}
+.list li:nth-child(1) a:hover {
+  background-color: #ff5252;
+}
+.list li:nth-child(2) a:hover {
+  background-color: #ff7b7b;
+}
+.list li:nth-child(3) a:hover {
+  background-color: #ffbaba;
+}
+.list li:nth-child(4) a:hover {
+  background-color: #0a66c2;
+}
+.list svg {
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+}

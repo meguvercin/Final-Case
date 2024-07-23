@@ -1,0 +1,61 @@
+.sectionContainer {
+  height: 100vh;
+  width: 100%;
+  padding: 100px 50px 0 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(174, 173, 245, 0.7808517156862745) 100%
+  );
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.first_draft_image {
+  height: 100%;
+  width: auto;
+}
+.second_section_image {
+  width: 100%;
+  height: auto;
+}
+.draft {
+  position: relative;
+
+  width: 300px;
+
+  margin: auto;
+}
+.draft img:nth-child(1) {
+  height: 100%;
+  width: 300px;
+}
+.firstDraft .click_gif {
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  width: 50px;
+  height: auto;
+  background-blend-mode: screen;
+}
+.imageText {
+  background-color: red;
+}
+.third_section_image {
+  width: 100%;
+}
+.third_section_gifContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third_section_gif {
+  align-self: center;
+  width: auto;
+}
+@media only screen and (orientation: landscape) {
+  .section_3_Container {
+    padding: 50px 0 0 50px;
+  }
+}
