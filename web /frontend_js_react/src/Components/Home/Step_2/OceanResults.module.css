@@ -1,0 +1,39 @@
+.resultFig {
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style-type: disc;
+  margin: 1rem;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nextButton,
+.prevButton {
+  width: 20%;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.nextButton {
+  background-color: green;
+}
+.prevButton {
+  background-color: var(--red);
+}
+
+@media only screen and (max-width: 500px) {
+  .nextButton,
+  .prevButton {
+    width: 40%;
+  }
+}

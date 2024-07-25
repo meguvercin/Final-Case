@@ -1,0 +1,103 @@
+.randomButton {
+  font-size: large;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.question {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem 0.5rem;
+  align-items: center;
+
+  border-radius: 16px;
+  margin-top: 0.5rem;
+}
+.question[isCompleted="true"] {
+  background-color: rgba(138, 209, 138, 0.2);
+}
+.question:hover {
+  background-color: rgb(241, 125, 125, 0.1);
+}
+.questionText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.radioInputContainer {
+  display: flex;
+  align-items: center;
+}
+.radioInputContainer p {
+  opacity: 0.7;
+  margin: 0.5rem;
+}
+.submitButton {
+  font-size: large;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 8px;
+  color: white;
+}
+.oneChoiceContainer button {
+  width: 100%;
+}
+.oneChoiceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.answerInput {
+  width: 100%;
+}
+.buttonContainer {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nextButton,
+.prevButton {
+  width: 20%;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.nextButton {
+  background-color: green;
+}
+.prevButton {
+  background-color: var(--red);
+}
+@media only screen and (max-width: 500px) {
+  .questionText {
+    text-align: center !important;
+  }
+  .radioInputContainer span {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .radioInputContainer p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .nextButton,
+  .prevButton {
+    width: 40%;
+  }
+}

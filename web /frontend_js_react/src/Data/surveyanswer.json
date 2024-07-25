@@ -1,0 +1,154 @@
+[
+  {
+    "id": 0,
+    "question_code": "KKH1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 1,
+    "question_code": "KKH2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 2,
+    "question_code": "KKH3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 3,
+    "question_code": "KH1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 4,
+    "question_code": "KH2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 5,
+    "question_code": "KH3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 6,
+    "question_code": "YTU1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 7,
+    "question_code": "YTU2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 8,
+    "question_code": "YTU3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 9,
+    "question_code": "DB1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 10,
+    "question_code": "DB2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 11,
+    "question_code": "DB3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 12,
+    "question_code": "MH1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 13,
+    "question_code": "MH2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 14,
+    "question_code": "MH3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 15,
+    "question_code": "GD1",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 16,
+    "question_code": "GD2",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 17,
+    "question_code": "GD3",
+    "answer": 5,
+    "question_group": 1
+  },
+  {
+    "id": 18,
+    "question_code": "TQ1",
+    "answer": "askfmlxcvmlkb",
+    "question_group": 3
+  },
+  {
+    "id": 19,
+    "question_code": "TQ2",
+    "answer": "samvcjmbnjk",
+    "question_group": 3
+  },
+  {
+    "id": 20,
+    "question_code": "TQ3",
+    "answer": "aglmkvcbxmlkb",
+    "question_group": 3
+  },
+  {
+    "id": 21,
+    "question_code": "TQ4",
+    "answer": "agmlkbclk",
+    "question_group": 3
+  },
+  {
+    "id": 22,
+    "question_code": "CS1",
+    "answer": [
+      "herhangi şık sçeebilirsin çoktan seçmeliler asflkmdcxblkmmasdlgkxcnmkamlsşdföglkbvxmlsmdglşmbxlkvcmnlşsfdgkbflmxblkm"
+    ],
+    "question_group": 2
+  },
+  {
+    "id": 23,
+    "question_code": "CS2",
+    "answer": ["1. şık", "3. şık", "4. şık"],
+    "question_group": 2
+  },
+  {
+    "id": 24,
+    "question_code": "CS3",
+    "answer": ["1. şık", "2. şık", "4. şık"],
+    "question_group": 2
+  }
+]

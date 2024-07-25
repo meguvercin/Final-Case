@@ -1,0 +1,31 @@
+:root {
+  --backgroundGray: rgb(244, 244, 244);
+  --backgroundWhite: #ffffff;
+  --red: rgb(220, 0, 5);
+  --gray: rgb(70, 70, 70);
+  --fontColorOnWhite: #333333;
+  --fontColorBlue: #737373;
+  --blue: #3e36f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--fontColorOnWhite) !important;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(174, 173, 245, 0.7808517156862745) 100%
+  );
+  transition: opacity, background 0.1s ease-out;
+  position: relative;
+}
