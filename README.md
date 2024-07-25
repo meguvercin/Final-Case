@@ -59,13 +59,12 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 Uygulamanın çalışır haldeki görüntülerini aşağıda bulabilirsiniz:
 
-![Uygulama Ekranı 1](![Ekran Resmi 2024-07-25 13 42 04](https://github.com/user-attachments/assets/25b00351-375c-4f5e-aa30-d16263fc3ce4)
-)
-![Uygulama Ekranı 2](![Ekran Resmi 2024-07-25 13 42 09](https://github.com/user-attachments/assets/c915a6fe-95c3-46a5-aa8a-f136c981d997)
-)
+Uygulama Ekranı 1(![Ekran Resmi 2024-07-25 13 42 04](https://github.com/user-attachments/assets/25b00351-375c-4f5e-aa30-d16263fc3ce4)
 
-![Uygulama Ekranı 3](![Ekran Resmi 2024-07-25 13 42 11](https://github.com/user-attachments/assets/f6ac6cb2-b0f2-42f4-8f4e-6d6eb816c317)
-)
+Uygulama Ekranı 2(![Ekran Resmi 2024-07-25 13 42 09](https://github.com/user-attachments/assets/c915a6fe-95c3-46a5-aa8a-f136c981d997)
+
+Uygulama Ekranı 3(![Ekran Resmi 2024-07-25 13 42 11](https://github.com/user-attachments/assets/f6ac6cb2-b0f2-42f4-8f4e-6d6eb816c317)
+
 
 ## Katkıda Bulunanlar
 
